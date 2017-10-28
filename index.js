@@ -44,7 +44,8 @@ todo: A function called sayHiToGrandma, takes one argument and
       returns "I can\'t hear you!" if str is  lowercase
 */
 function sayHiToGrandma(str) {
-  if (str.lowercase()) {
+  let lowercase = str;
+  if (str.toUpperCase !== lowercase) {
     return "I can\'t hear you!";
   }
 }
