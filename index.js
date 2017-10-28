@@ -5,7 +5,7 @@ todo: A function called shout, takes one argument and
 */
 
 function shout(str) {
-  return str.toUpperCase;
+  return str.toUpperCase();
 }
 
 
@@ -15,5 +15,5 @@ todo: A function called whisper, takes one argument and
 */
 
 function whisper(str) {
-  return str.toLowerCase;
+  return str.toLowerCase();
 }
