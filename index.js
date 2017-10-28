@@ -25,5 +25,5 @@ todo: A function called logShout, takes one argument and
 */
 
 function logShout(str) {
-  console.log(str.toLowerCase());
+  console.log(str.toUpperCase());
 }
