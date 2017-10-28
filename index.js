@@ -27,3 +27,13 @@ todo: A function called logShout, takes one argument and
 function logShout(str) {
   console.log(str.toUpperCase());
 }
+
+
+/**
+todo: A function called logWhisper, takes one argument and
+      returns it with all lowercase
+*/
+
+function logWhisper(str) {
+  console.log(str.toLowerCase());
+}
