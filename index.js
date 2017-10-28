@@ -31,9 +31,20 @@ function logShout(str) {
 
 /**
 todo: A function called logWhisper, takes one argument and
-      returns it with all lowercase
+      calls console with all lowercase
 */
 
 function logWhisper(str) {
   console.log(str.toLowerCase());
+}
+
+
+/**
+todo: A function called sayHiToGrandma, takes one argument and
+      returns "I can\'t hear you!" if str is  lowercase
+*/
+function sayHiToGrandma(str) {
+  if (str.lowercase()) {
+    return "I can\'t hear you!";
+  }
 }
