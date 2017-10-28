@@ -17,3 +17,13 @@ todo: A function called whisper, takes one argument and
 function whisper(str) {
   return str.toLowerCase();
 }
+
+
+/**
+todo: A function called logShout, takes one argument and
+      calls the console with all caps
+*/
+
+function logShout(str) {
+  console.log(str.toLowerCase());
+}
