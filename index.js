@@ -45,11 +45,11 @@ todo: A function called sayHiToGrandma, takes one argument and
 */
 function sayHiToGrandma(str) {
   let lowercase = str;
-  if (str.toUpperCase() !== lowercase) {
+  if (str === "I love you, Grandma.") {
+    return "I love you, too.";
+  }else if (str.toUpperCase() !== lowercase) {
     return "I can\'t hear you!";
   }else if (lowercase !== str.toLowerCase()) {
     return "YES INDEED!";
-  }else if (str === "I love you, Grandma.") {
-    return "I love you, too.";
   }
 }
